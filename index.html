@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet&Style | Loja Virtual</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-orange-50 text-gray-800">
+
+  <!-- HEADER -->
+  <header class="bg-white shadow-md">
+    <div class="max-w-6xl mx-auto px-4 py-5
+                flex flex-col sm:flex-row
+                items-center justify-between gap-4">
+
+      <h1 class="text-3xl font-bold text-orange-500">
+        🐾 Pet&Style
+      </h1>
+
+      <nav aria-label="Menu principal"
+           class="flex flex-wrap justify-center gap-5 font-medium">
+        <a href="#inicio" class="hover:text-orange-500">Início</a>
+        <a href="#produtos" class="hover:text-orange-500">Produtos</a>
+        <a href="#depoimentos" class="hover:text-orange-500">Depoimentos</a>
+        <a href="#contato" class="hover:text-orange-500">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="inicio" class="bg-orange-100 py-16">
+      <div class="max-w-6xl mx-auto px-4
+                  flex flex-col md:flex-row
+                  items-center gap-10">
+
+        <div class="md:w-1/2 text-center md:text-left">
+          <h2 class="text-3xl sm:text-4xl lg:text-5xl
+                     font-bold mb-6">
+            Seu pet merece muito estilo!
+          </h2>
+
+          <p class="text-lg mb-8">
+            Produtos especiais para deixar seu melhor amigo
+            confortável, feliz e cheio de personalidade.
+          </p>
+
+          <a href="#produtos"
+             class="inline-block bg-orange-500 text-white
+                    px-8 py-3 rounded-lg font-semibold
+                    hover:bg-orange-600 transition">
+            Ver produtos
+          </a>
+        </div>
+
+        <img
+          src="https://placehold.co/700x500/ffedd5/9a3412?text=Pet%26Style"
+          alt="Destaque da loja Pet&Style"
+          class="w-full md:w-1/2 rounded-2xl shadow-lg">
+      </div>
+    </section>
+
+    <!-- PRODUTOS -->
+    <section id="produtos" class="max-w-6xl mx-auto px-4 py-16">
+      <h2 class="text-3xl font-bold text-center mb-10">
+        Nossos Produtos
+      </h2>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2
+                  lg:grid-cols-4 gap-6">
+
+        <article class="bg-white rounded-xl shadow-md
+                        overflow-hidden p-5 text-center">
+          <img src="https://placehold.co/400x300?text=Coleira"
+               alt="Coleira estilosa"
+               class="w-full rounded-lg mb-4">
+          <h3 class="text-xl font-bold mb-2">Coleira Estilosa</h3>
+          <p class="text-gray-600 mb-3">Conforto e estilo para passeios.</p>
+          <p class="text-orange-600 font-bold text-xl">R$ 39,90</p>
+        </article>
+
+        <article class="bg-white rounded-xl shadow-md
+                        overflow-hidden p-5 text-center">
+          <img src="https://placehold.co/400x300?text=Caminha"
+               alt="Caminha confortável"
+               class="w-full rounded-lg mb-4">
+          <h3 class="text-xl font-bold mb-2">Caminha Premium</h3>
+          <p class="text-gray-600 mb-3">Descanso confortável para seu pet.</p>
+          <p class="text-orange-600 font-bold text-xl">R$ 129,90</p>
+        </article>
+
+        <article class="bg-white rounded-xl shadow-md
+                        overflow-hidden p-5 text-center">
+          <img src="https://placehold.co/400x300?text=Brinquedo"
+               alt="Brinquedo para pets"
+               class="w-full rounded-lg mb-4">
+          <h3 class="text-xl font-bold mb-2">Brinquedo Divertido</h3>
+          <p class="text-gray-600 mb-3">Diversão para todos os momentos.</p>
+          <p class="text-orange-600 font-bold text-xl">R$ 24,90</p>
+        </article>
+
+        <article class="bg-white rounded-xl shadow-md
+                        overflow-hidden p-5 text-center">
+          <img src="https://placehold.co/400x300?text=Roupa+Pet"
+               alt="Roupa para pets"
+               class="w-full rounded-lg mb-4">
+          <h3 class="text-xl font-bold mb-2">Roupa Fashion</h3>
+          <p class="text-gray-600 mb-3">Seu pet ainda mais charmoso.</p>
+          <p class="text-orange-600 font-bold text-xl">R$ 59,90</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section id="depoimentos" class="bg-orange-100 py-16">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-10">
+          O que nossos clientes dizem
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <blockquote class="bg-white p-6 rounded-xl shadow">
+            <p>"Meu cachorro adorou a caminha! Excelente qualidade."</p>
+            <footer class="font-bold mt-4">— Ana Paula</footer>
+          </blockquote>
+
+          <blockquote class="bg-white p-6 rounded-xl shadow">
+            <p>"Produtos lindos e atendimento maravilhoso!"</p>
+            <footer class="font-bold mt-4">— Marcos Silva</footer>
+          </blockquote>
+
+          <blockquote class="bg-white p-6 rounded-xl shadow">
+            <p>"A coleira ficou perfeita na minha cachorrinha."</p>
+            <footer class="font-bold mt-4">— Juliana Costa</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="max-w-4xl mx-auto px-4 py-16">
+      <h2 class="text-3xl font-bold text-center mb-8">
+        Entre em Contato
+      </h2>
+
+      <div class="text-center mb-8">
+        <p>E-mail: contato@petstyle.com.br</p>
+        <p>Telefone: (11) 99999-9999</p>
+      </div>
+
+      <form class="bg-white p-6 sm:p-8 rounded-xl shadow-lg"
+            onsubmit="event.preventDefault(); alert('Formulário demonstrativo. Nenhuma mensagem foi enviada.');">
+
+        <div class="mb-5">
+          <label for="nome" class="block font-semibold mb-2">Nome</label>
+          <input type="text" id="nome" required
+                 class="w-full border border-gray-300
+                        rounded-lg p-3 focus:outline-none
+                        focus:ring-2 focus:ring-orange-400">
+        </div>
+
+        <div class="mb-5">
+          <label for="email" class="block font-semibold mb-2">E-mail</label>
+          <input type="email" id="email" required
+                 class="w-full border border-gray-300
+                        rounded-lg p-3 focus:outline-none
+                        focus:ring-2 focus:ring-orange-400">
+        </div>
+
+        <div class="mb-5">
+          <label for="mensagem" class="block font-semibold mb-2">
+            Mensagem
+          </label>
+          <textarea id="mensagem" rows="5" required
+                    class="w-full border border-gray-300
+                           rounded-lg p-3 focus:outline-none
+                           focus:ring-2 focus:ring-orange-400"></textarea>
+        </div>
+
+        <button type="submit"
+                class="w-full bg-orange-500 text-white
+                       py-3 rounded-lg font-bold
+                       hover:bg-orange-600 transition">
+          Enviar mensagem
+        </button>
+      </form>
+    </section>
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="bg-gray-900 text-white text-center py-6">
+    <p>&copy; 2026 Pet&Style - Projeto fictício EBAC.</p>
+  </footer>
+
+</body>
+</html>
